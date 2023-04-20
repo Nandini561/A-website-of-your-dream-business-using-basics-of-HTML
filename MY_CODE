@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fictional Fables</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Fantasy World</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Discover New World</h2>
+            <p>At Fantasy Books, we offer a wide range of fictional books that will take you on a journey beyond your wildest dreams. From epic adventures to magical creatures, our collection of books will capture your imagination and leave you wanting more.</p>
+            <a href="#">Learn More</a>
+        </section>
+
+        <section>
+            <h2>Our Books</h2>
+            <ul>
+                <li><a href="#">The Lord of the Rings</a></li>
+                <li><a href="#">Harry Potter</a></li>
+                <li><a href="#">Game of Thrones</a></li>
+                <li><a href="#">The Chronicles of Narnia</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>About Us</h2>
+            <p>At Fantasy Books, we are passionate about bringing the magic of fantasy and fiction to readers of all ages. Our team is dedicated to curating a collection of the best books in the genre and providing exceptional customer service.</p>
+            <a href="#">Contact Us</a>
+
+            <p>Get in touch with us to learn more about our products and services.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Fantasy Books. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
